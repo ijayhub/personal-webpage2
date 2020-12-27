@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+header {
+    background:url('../image/background.jpg');
+    background-size: cover;
+    background-position:center;
+    min-height:100%;
+    font-family: dancing script;
+}
+@media screen and (max-width: 100%) {
+    header{
+        min-height: 100%;
+    }
+
+}
+h1{
+    font-family: dancing script ;
+}
+p{
+    font-family: dancing script;
+    font-size: larger;
+    
+}
+h5{
+    font-family: sans-serif;
+}
+span{
+    font-family: cursive;
+}
+footer  div{
+
+font-family: dancing script;
+font-size: larger;
+}
+h5{
+    font-family: dancing script;
+}

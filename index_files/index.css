@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+      body{
+         background: url('default.jpg');
+         background-size: cover;
+         background-repeat: no-repeat;
+          /* background-position: center center ;    */
+          color: white;
+         text-shadow: 2px 2px 1px black; 
+          font-family: "pacifico";
+         /* visibility: hidden;   */
+          
+     }
+    #weatherContainer{
+         background-color:rgba black (0,0,0,0.25);
+         box-shadow: 1px 1px 5px black;
+         padding: 50px;
+         border-radius: 15px;
+         position: absolute;
+     /* visibility: hidden;   */
+         
+        
+     }
+     #weatherContainer h1{
+         margin: 5px;
+         font-size: 42px;
+         font-family: "dancing script";
+     } 
+     #searchContainer{
+         padding: 15px;
+         position: absolute;
+         top: 0;
+         right: 0;
+        
+     }
+     #searchContainer input{
+         width: 200px;
+         
+     }
+     #searchContainer button{
+         background-color: rgb(1,159,198);
+         width: 75px;
+         font-family: pacifico;
+     }
+     .searchControl{
+         box-shadow: 2px 2px 5px black;
+         border: none;
+         border-radius: 5px;
+         padding: 5px;
+     }
+     ::placeholder{
+        text-align: center;
+        font-family: dancing script;
+    }
+    
+    
+    #weatherMain{
+         display: block;
+         margin-bottom: 20px;
+
+     }
+     #weatherMain div{
+         display: inline-block;
+
+     }
+     #weatherDescriptionHeader{
+         font-size: 28px;
+         vertical-align: 50%;
+    
+
+
+     }
+     #temperature{
+         font-size: 38px;
+         vertical-align: 25%;
+        
+     }
+     .bottomDetails{
+         display:block;
+         font-size: 24px;
+         text-align: right;
+         font-family: "dancing script";
+     }
+     hr{
+         margin-bottom: 20px;
+     }
+     h1{
+         text-align: center;
+         font-family: "dancing script";
+         color: cornsilk;
+         font-size:50px ;
+         
+
+     }
+      
