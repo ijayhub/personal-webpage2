@@ -1,3 +1,3 @@
 # portfolio-webpage
- A peronal webpage on how to get in touch
+ A webpage portfolio on how to get in touch
   best to view on live server
